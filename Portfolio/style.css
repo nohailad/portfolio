@@ -1,29 +1,54 @@
-.title {
-    font-family: mina, serif;
-    font-weight: 400;
-    font-size: 35px;
-    font-style: normal;
-    color: #A77962;
+.logo {
+    text-align: center;
 }
 
+.img-logo {
+    float: none;
+    ;
+}
 
+div.nav-bar a {
+    text-align: center;
+}
 
+.shape1 {
+    max-width: 100%;
+    padding-left: 100%;
+}
+
+.shape2 {
+    max-width: 200px;
+    display: flex;
+    margin-left: -500px;
+    position: fixed;
+}
+
+.shape3 {
+    max-width: 100%;
+    padding-right: 99%;
+    top: -500px;
+}
 body {
     font-family: sf-pro, serif;
     font-weight: 700;
     color: #655242;
     margin: 0;
     padding: 0;
-    background-color: #FAFAFA;
+    /* background-color: #FAFAFA; */
+    background-image: url("images/background.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .nav-bar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    background-color: #FFFEFD;
+    
+    margin-top: 0px;
+    background-image: url(images/background.png);
+    background-size: cover;
 
 }
 
@@ -42,8 +67,8 @@ a {
     justify-content: space-between;
     flex-direction: row;
     width: 27%;
-    margin-top: 25px;
-    margin-bottom: 140px;
+    margin-top: 10px;
+    margin-bottom: 100px;
     font-family: sf-pro;
 }
 
@@ -56,36 +81,35 @@ a {
     overflow: visible;
 }
 
+.aboutme-container {
+    background-color: #F5EDEA;
+    width: 50%;
+    top: -40px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    
+}
+
 #aboutme {
-    background-color: #FAFAFA;
+    /* background-color: #FAFAFA; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: visible;
 }
-
-
+/* ------------- contact ------------ */
 .message-container {
     background-color: #F5EDEA;
     width: 50%;
-    top: -70px;
+    top: -40px;
     position: relative;
     border-radius: 10px;
     margin-bottom: 50px;
     
 }
 
-.aboutme-container {
-    background-color: #F5EDEA;
-    width: 50%;
-    top: -70px;
-    position: relative;
-    border-radius: 10px;
-    margin-bottom: 50px;
-    
-    
-}
 
 .text-col {
     margin-left: 30px;
@@ -95,7 +119,7 @@ a {
 }
 
 img {
-    max-width: 40%;
+    max-width: 50%;
     border-radius: 50%;
     float: right;
     margin-top: 30px;
@@ -126,7 +150,16 @@ img {
     height: 100px;
     margin-bottom: 50px;
     margin-right: 80px;
+    margin-left: 20px;
     float: left;
+    border-style: none;
+    border-color: transparent;
+    overflow: auto;
+    resize: none;
+    border-radius: 5px;
+    font-family: sf-pro, serif;
+    padding: 5px;
+    background-color: #FAFAFA;
 }
 
 input {
@@ -137,12 +170,12 @@ input {
     border-radius: 5px;
     font-family: sf-pro, serif;
     width: 35%;
-    text-align: left;
 }
 
 p {
     margin-left: 20px;
 }
+
 .btn {
     background-image: url("images/send-button.png");
     background-size: cover;
@@ -158,7 +191,85 @@ p {
 
 
 
+/* ------------- portfolio page ------------ */
 
+.title-projects {
+   font-size: 15px;
+
+
+}
+
+.review {
+    font-size: 9px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+
+}
+
+h3 {
+    font-size: 15px;
+   padding-left: 20px;
+
+}
+
+h1 {
+    font-size: 30px;
+    padding-left: 30px;
+    margin-top: 2px;
+    
+}
+
+.wrapper {
+    width: 300px;
+    height: 120px;
+    background-color: #F5EDEA;
+    margin: 20px 10px 10px 30px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+footer {
+   text-align: center; 
+   margin-top: -30px;
+   padding-left: 50px;
+}
+
+
+/* ------------- projects ------------ */
+
+.project-img {
+    border-radius: 5px;
+    float: left;
+    max-width: 600px;
+}
+
+.project-img2 {
+    border-radius: 5px;
+    float: right;
+    max-width: 695px;
+}
+
+.project-img3 {
+    border-radius: 5px;
+    max-width: 800px;
+    float: none;
+    padding-left: 21%;
+}
+
+.date {
+    padding-left: 10px;
+    margin-top: -20px;
+}
+
+.project-title {
+    margin-top: -20px;
+}
+
+
+/* ------------- fonts ------------ */
 
 @font-face {
     font-family: sf-pro;
